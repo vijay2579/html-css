@@ -1,0 +1,30 @@
+/* applies specified styles to all p tags which are inside classes .container & .content */
+.container .content p {
+  color: red;
+}
+
+/* applies specified styles to first p tag */
+.container .content p:nth-child(1) {
+  color: green;
+}
+
+/* element selector */
+.container .main p {
+  color: yellow;
+}
+
+/* class selector */
+.container .content .first-paragraph {
+  color: purple;
+}
+
+/* id selector */
+.container .content #second {
+  color: orange;
+}
+
+/* pseudo css */
+.container .content #third:hover {
+  background-color: grey;
+  color: #FFFFFF;
+}
